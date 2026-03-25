@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+  --color-primary: #fff;           
+  --color-body: #fff;            
+  --color-background: #000;       
+  --color-section: #060f1b;        
+  --color-btn: #193e50;         
+  --color-btn-hover: #0C2532;   
+}
+.navbar {
+  background-color: var(--color-section);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  font-family: 'Montserrat', sans-serif;
+  padding: 0.5rem 1rem;
+  background-image: url("../img/fondo-hero.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 2;
+}
+
+.navbar-brand {
+  color: var(--color-primary) !important;
+  font-weight: 700;
+}
+
+.navbar-nav {
+  margin-left: auto; 
+}
+
+.navbar-nav .nav-item {
+  display: inline-block;
+  margin: 0 18px;
+}
+
+.navbar-nav .nav-link {
+  color: var(--color-primary) !important;
+  font-weight: 700;
+  padding: 10px 6px;
+  transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #00bfff !important; 
+}
+
+@media (max-width: 992px) {
+  .hero-title { font-size: 60px !important; }
+  .hero-text { font-size: 16px !important; }
+  .project-container h2 { font-size: 50px !important; }
+}
+
+@media (max-width: 768px) {
+ 
+  .hero-title { font-size: 45px !important; }
+  .hero-text { font-size: 14px !important; }
+  .project-container h2 { font-size: 40px !important; }
+  .form-contact { text-align: center !important; }
+}
+
+
+
+
+
